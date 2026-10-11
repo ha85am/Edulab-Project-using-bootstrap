@@ -1,0 +1,203 @@
+.hero-index2 {
+  background-image: url("https://themewagon.github.io/eduleb/assets/img/bg/home-bg2.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 750px;
+}
+
+.hero-index2 img {
+  width: 390px;
+  height: 500px;
+  align-self: flex-start;
+}
+.hero-top2 {
+  display: flex;
+}
+
+.hero-title2 h1 {
+  width: 30rem;
+  color: #fff;
+  font-weight: var(--fontWeightB);
+  line-height: calc(var(--lineSpace) * 3);
+  font-size: var(--fontSizeL);
+}
+.hero-title2 p {
+  width: 30rem;
+  font-size: var(--fontSizeN);
+  color: var(--fontColorText);
+  line-height: var(--lineSpace);
+  padding: 20px 0px;
+}
+.hero-title2 input {
+  width: 30rem;
+  height: 4rem;
+  justify-self: center;
+  align-items: center;
+  margin-top: 0px;
+  border: #dee2e6 solid 1px;
+  padding: 10px;
+  font-size: calc(var(--fontSizeN) * 1.1);
+}
+.hero-title2 input:focus {
+  border: #525fe1 solid 1px;
+  outline: none;
+  box-shadow: none;
+}
+.hero-title2 button {
+  width: 8rem;
+  height: 3rem;
+  align-self: center;
+  margin: 2px 0 0 -140px;
+  position: absolute;
+  background-color: var(--buttonColor);
+  color: white;
+  font-weight: 500;
+  font-size: var(--fontSizeN);
+  border: none;
+  letter-spacing: 1px;
+}
+
+.hero-title2 button:hover {
+  background-color: var(--buttonColorHover);
+  cursor: pointer;
+}
+.hero-title2 ul {
+  list-style: none;
+  display: flex;
+  margin-top: 10px;
+  gap: 15px;
+  color: #fff;
+  font-weight: normal;
+}
+.hero-title2 li > a {
+  color: #fff;
+  font-weight: var(--fontWeightB);
+}
+.hero-title2 li > a:hover {
+  color: var(--buttonColorHover);
+}
+
+/*categories start*/
+.cat2-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 25px;
+}
+.cat2-card {
+  padding: 15px;
+  border: #eee solid 2px;
+  border-radius: 15px;
+  height: 450px;
+  text-align: center;
+}
+.cat2-card img {
+  width: 200px;
+  height: 200px;
+}
+.cat2-card button {
+  width: 120px;
+  height: 30px;
+  background-color: var(--buttonColor);
+  color: #fff;
+  border-radius: 30px;
+  border: #eee solid 2px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.cat2-card a {
+  color: var(--fontColorHeading);
+  font-size: 24px;
+  font-weight: var(--fontWeightB);
+  text-decoration: none;
+}
+.cat2-card a > h4 {
+  padding: 10px;
+}
+.cat2-card button:hover {
+  cursor: text;
+}
+.cat2-card:hover {
+  border: var(--buttonColor) solid 2px;
+}
+
+.index2-cards {
+  /* position: absolute; */
+  position: relative;
+  width: 220px;
+  height: 140px;
+  padding: 20px;
+  margin-top: -250px;
+  justify-content: space-between;
+}
+
+.index2-cards p {
+  width: 100px;
+}
+
+.join-us {
+  display: flex;
+  gap: 50px;
+  margin-top: -200px;
+  color: #fff;
+  font-weight: 400;
+}
+.join1 {
+  background-image:
+    linear-gradient(rgba(26, 25, 54, 0.6)),
+    url(https://themewagon.github.io/eduleb/assets/img/ins1.png);
+  background-size: cover cover;
+  background-position: center center;
+  height: 350px;
+  width: 450px;
+  transform: scaleY(0.8);
+  padding: 30px;
+  line-height: 40px;
+}
+.join2 {
+  background-image:
+    linear-gradient(rgba(26, 25, 54, 0.6)),
+    url(https://themewagon.github.io/eduleb/assets/img/ins2.png);
+  background-size: cover cover;
+  background-position: center center;
+  height: 350px;
+  width: 450px;
+  transform: scaleY(0.8);
+  padding: 30px;
+  line-height: 40px;
+}
+.join-us button {
+  width: 178px;
+  height: 55px;
+  margin-top: 20px;
+  background-color: var(--buttonColor);
+  border: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+}
+.join1 a,
+.join2 a {
+  text-decoration: none;
+  border: none;
+
+}
+.join-us button:hover {
+  background-color: var(--buttonColorHover);
+  cursor: pointer;
+}
+.review2 h2{
+    color: var(--fontColorHeading);
+    font-size: 40px;
+    font-weight: var(--fontWeightB);
+    margin-top: -120px;
+    margin-bottom: 20px;
+    width: 600px;
+    line-height: calc(var(--lineSpace)*2);
+}
+.review-artic{
+    display: flex;
+    width:45%;
+    gap:50px;
+}
